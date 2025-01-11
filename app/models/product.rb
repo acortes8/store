@@ -1,3 +1,3 @@
-class Product <
+class Product < ApplicationRecord
   validates :name, presence: true
 end
